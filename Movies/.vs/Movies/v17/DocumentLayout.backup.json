@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\asus\\Desktop\\Movies\\Movies\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{8E6E5C32-80B0-4521-8FA7-12F3740DE893}|MoviesApi\\MoviesApi.csproj|c:\\users\\asus\\desktop\\movies\\movies\\moviesapi\\apiendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E6E5C32-80B0-4521-8FA7-12F3740DE893}|MoviesApi\\MoviesApi.csproj|solutionrelative:moviesapi\\apiendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E6E5C32-80B0-4521-8FA7-12F3740DE893}|MoviesApi\\MoviesApi.csproj|c:\\users\\asus\\desktop\\movies\\movies\\moviesapi\\mapping\\contractmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E6E5C32-80B0-4521-8FA7-12F3740DE893}|MoviesApi\\MoviesApi.csproj|solutionrelative:moviesapi\\mapping\\contractmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E6E5C32-80B0-4521-8FA7-12F3740DE893}|MoviesApi\\MoviesApi.csproj|c:\\users\\asus\\desktop\\movies\\movies\\moviesapi\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E6E5C32-80B0-4521-8FA7-12F3740DE893}|MoviesApi\\MoviesApi.csproj|solutionrelative:moviesapi\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C7B78EF-7CA9-497F-AC48-8D0E523EBECB}|Movies.Application\\Movies.Application.csproj|c:\\users\\asus\\desktop\\movies\\movies\\movies.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C7B78EF-7CA9-497F-AC48-8D0E523EBECB}|Movies.Application\\Movies.Application.csproj|solutionrelative:movies.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,58 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ApiEndpoints.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\Movies\\Movies\\MoviesApi\\ApiEndpoints.cs",
-              "RelativeDocumentMoniker": "MoviesApi\\ApiEndpoints.cs",
-              "ToolTip": "C:\\Users\\asus\\Desktop\\Movies\\Movies\\MoviesApi\\ApiEndpoints.cs*",
-              "RelativeToolTip": "MoviesApi\\ApiEndpoints.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-04T15:58:58.3Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ContractMapping.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\Movies\\Movies\\MoviesApi\\Mapping\\ContractMapping.cs",
-              "RelativeDocumentMoniker": "MoviesApi\\Mapping\\ContractMapping.cs",
-              "ToolTip": "C:\\Users\\asus\\Desktop\\Movies\\Movies\\MoviesApi\\Mapping\\ContractMapping.cs",
-              "RelativeToolTip": "MoviesApi\\Mapping\\ContractMapping.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwCYAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-04T15:35:19.875Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\Movies\\Movies\\Movies.Application\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "Movies.Application\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\asus\\Desktop\\Movies\\Movies\\Movies.Application\\DependencyInjection.cs",
-              "RelativeToolTip": "Movies.Application\\DependencyInjection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-04T15:28:42.295Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MoviesController.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\Movies\\Movies\\MoviesApi\\Controllers\\MoviesController.cs",
-              "RelativeDocumentMoniker": "MoviesApi\\Controllers\\MoviesController.cs",
-              "ToolTip": "C:\\Users\\asus\\Desktop\\Movies\\Movies\\MoviesApi\\Controllers\\MoviesController.cs",
-              "RelativeToolTip": "MoviesApi\\Controllers\\MoviesController.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAEwEEAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-04T15:28:05.875Z",
-              "EditorCaption": ""
             }
           ]
         }

@@ -3,6 +3,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Movies.Application.Data;
 using Movies.Application.Repositories;
+using Movies.Application.Services;
 
 namespace Movies.Application
 {
@@ -14,7 +15,8 @@ namespace Movies.Application
             {
                 options.UseSqlServer(configuration.GetConnectionString("MovieConnectionString"));
             });
-            services.AddScoped<ImovieRepository, MovieRepository>();
+            services.AddScoped<IMovieRepository, MovieRepository>();
+            services.AddScoped<IMovieService, MovieService>();
             
         
             return services;

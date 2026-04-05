@@ -46,19 +46,18 @@
         }
       }
     },
-    "/api/movies/{id}": {
+    "/api/movies/{idOrSlug}": {
       "get": {
         "tags": [
           "Movies"
         ],
         "parameters": [
           {
-            "name": "id",
+            "name": "idOrSlug",
             "in": "path",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -67,7 +66,9 @@
             "description": "OK"
           }
         }
-      },
+      }
+    },
+    "/api/movies/{id}": {
       "put": {
         "tags": [
           "Movies"
