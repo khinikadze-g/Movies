@@ -150,3 +150,9 @@ C:\Users\asus\Desktop\Movies\Movies\MoviesApi\obj\Debug\net8.0\refint\MoviesApi.
 C:\Users\asus\Desktop\Movies\Movies\MoviesApi\obj\Debug\net8.0\MoviesApi.pdb
 C:\Users\asus\Desktop\Movies\Movies\MoviesApi\obj\Debug\net8.0\MoviesApi.genruntimeconfig.cache
 C:\Users\asus\Desktop\Movies\Movies\MoviesApi\obj\Debug\net8.0\ref\MoviesApi.dll
+C:\Users\asus\Desktop\Movies\Movies\MoviesApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\asus\Desktop\Movies\Movies\MoviesApi\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\asus\Desktop\Movies\Movies\MoviesApi\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\asus\Desktop\Movies\Movies\MoviesApi\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\asus\Desktop\Movies\Movies\MoviesApi\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\asus\Desktop\Movies\Movies\MoviesApi\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll

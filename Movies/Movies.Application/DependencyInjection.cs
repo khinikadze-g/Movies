@@ -17,6 +17,7 @@ namespace Movies.Application
             });
             services.AddScoped<IMovieRepository, MovieRepository>();
             services.AddScoped<IMovieService, MovieService>();
+            services.AddScoped<ITokenRepository, TokenRepository>();
             
         
             return services;
