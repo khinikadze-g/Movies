@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using Movies.Application.Models;
+using System.Reflection.Emit;
 using System.Text.RegularExpressions;
 
 namespace Movies.Application.Data
@@ -15,6 +16,7 @@ namespace Movies.Application.Data
             
         }
         public DbSet<Movie> Movies { get; set; }
+        public DbSet<Rating> Ratings { get; set; }
 
         public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {
@@ -60,6 +62,12 @@ namespace Movies.Application.Data
                 }
             };
             builder.Entity<IdentityRole>().HasData(roles);
+
+
+            builder.Entity<Rating>()
+               .HasIndex(r => new { r.MovieId, r.UserName })
+               .IsUnique();
         }
+        
     }
 }

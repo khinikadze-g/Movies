@@ -7,6 +7,7 @@ namespace Movies.Contracts.Responses
         public required string Title { get; set; }
         public required string Slug { get; set; }
         public required int YearOfRelease { get; set; }
+        public required double Rating { get; set; }
         public required IEnumerable<string> Genres { get; set; } = Enumerable.Empty<string>();
     }
 }

@@ -11,6 +11,8 @@
             public const string GetAll = Base;
             public const string Update = $"{Base}/{{id}}";
             public const string Delete = $"{Base}/{{id}}";
+
+            public const string Rate = $"{Base}/{{id}}/ratings";
         }
     }
 }

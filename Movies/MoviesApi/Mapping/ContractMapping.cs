@@ -26,6 +26,7 @@ namespace MoviesApi.Mapping
                 Title = movie.Title,
                 Slug = movie.Slug,
                 YearOfRelease = movie.YearOfRelease,
+                Rating = movie.AverageRating,
                 Genres = movie.Genres.ToList(),
             };
         }
